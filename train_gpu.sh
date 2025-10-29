@@ -27,7 +27,7 @@ echo "Epochs: $NUM_EPOCHS, Batch Size: $BATCH_SIZE, Seq Len: $SEQ_LEN, LR: $LEAR
 echo "---------------------------------"
 
 # Run training, print to terminal, and capture output to a variable
-TRAINING_OUTPUT=$(cargo run --release --example language_model -- \
+TRAINING_OUTPUT=$(cargo run --release --bin cli -- \
     --use-gpu "true" \
     --dataset "$DATASET" \
     --save-path "$FINAL_MODEL_PATH" \

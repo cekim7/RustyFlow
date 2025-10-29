@@ -20,5 +20,6 @@ bytemuck = { version = "1.15", features = ["derive"] }
 name = "rusty_flow"
 path = "src/lib.rs"
 
-[[example]]
-name = "language_model"
+[[bin]]
+name = "cli"
+path = "src/bin/cli.rs"

@@ -27,12 +27,12 @@ if [ ! -f "$FINAL_MODEL_PATH" ]; then
     echo "Error: Model file not found at '$FINAL_MODEL_PATH'."
     echo "Please run './train_cpu.sh' first to train and save a model."
     echo "Available models:"
-    cargo run --release --example language_model -- --list-models
+    cargo run --release --bin cli -- --list-models
     exit 1
 fi
 
 # The seq_len for chat is loaded from the model file, but we pass it as a default.
-cargo run --release --example language_model -- \
+cargo run --release --bin cli -- \
     --chat \
     --use-gpu "false" \
     --load-path "$FINAL_MODEL_PATH" \
