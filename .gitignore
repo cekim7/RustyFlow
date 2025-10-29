@@ -62,3 +62,9 @@ models/
 training_log.txt
 .chatignore
 
+
+push_to_github.sh
+
+.gitignore
+
+
