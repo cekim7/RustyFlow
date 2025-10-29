@@ -61,7 +61,7 @@ models/
 # Ignore performance log file
 training_log.txt
 .chatignore
-
+./.chatignore
 
 push_to_github.sh
 
