@@ -1,0 +1,65 @@
+# Default Chaditor operational/log directories (typically in project root)
+gemini_replay_data
+autopilot_logs/
+benchmark_logs/
+runs/
+data/
+# Development and test related
+test*
+tests
+*.test.py
+*.spec.js
+requirements-dev.txt
+# Common build artifacts and large directories (ignored anywhere)
+build
+dist
+vendor
+.DS_Store
+Thumbs.db
+# IDE and environment specific (ignored anywhere)
+.venv
+venv
+env
+ENV
+__pycache__
+# Project-specific large data or benchmark folders (examples)
+# data/
+# large_datasets/
+models/
+benchmarks
+
+
+
+
+# --- Essential patterns for performance and to avoid tracking noise ---
+# To include any of these, comment out the line (e.g., '# large_folder/').
+*.cache
+*.class
+*.dll
+*.dylib
+*.egg-info
+*.lock
+*.log
+*.o
+*.obj
+*.pyc
+*.so
+*.xcodeproj
+*.xcworkspace
+.angular
+.angular/
+.build
+.chaditor
+.chaditor_trash/
+.firebase/
+.git/
+.idea/
+.mypy_cache
+.pytest_cache
+.ruff_cache
+.vscode/
+DerivedData
+chaditor_session.log
+node_modules
+progress_log.jsonl
+target
