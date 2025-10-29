@@ -60,3 +60,5 @@ models/
 
 # Ignore performance log file
 training_log.txt
+.chatignore
+
