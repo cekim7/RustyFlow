@@ -26,7 +26,7 @@ RustyFlow is an experimental machine learning library written entirely in Rust, 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/cekim7/RustyFlow.git # Replace with your repo URL
+git clone https://github.com/cekim7/RustyFlow.git
 cd RustyFlow
 ```
 
